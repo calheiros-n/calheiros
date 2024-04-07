@@ -7,7 +7,7 @@
 💭 Currently learning about data analytics and HTML<br/>
 
 <!-- GRPM -->
-![Guilherme's github stats](https://github-readme-stats.vercel.app/api?username=GuilhermeCalheirosdb&theme=dark&hide_border=false&include_all_commits=true&count_private=true&bg_color=333333&title_color=ffffff&text_color=ffffff)<br/>
+![Guilherme's github stats](https://github-readme-stats.vercel.app/api?username=xmoon05&theme=dark&hide_border=false&include_all_commits=true&count_private=true&bg_color=333333&title_color=ffffff&text_color=ffffff)<br/>
 
 # Mobile programming skills:
 
