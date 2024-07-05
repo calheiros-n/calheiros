@@ -1,0 +1,20 @@
+--- Flutter web can't load network image from another domain ----
+
+run command flutter run -d chrome --web-renderer html or
+
+you can go to index.html file on web folder, then change
+
+onEntrypointLoaded: function(engineInitializer) {
+  engineInitializer.initializeEngine().then(function(appRunner) {
+    appRunner.runApp();
+  });
+}
+to
+
+onEntrypointLoaded: function(engineInitializer) {
+  let config = { renderer: 'html' };
+  engineInitializer.initializeEngine(config).then(function(appRunner) {
+    appRunner.runApp();
+  });
+}
+
